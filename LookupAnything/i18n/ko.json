@@ -18,16 +18,16 @@
     "generic.range": "{{min}} ~ {{max}}",
     "generic.yes": "예",
     "generic.no": "아니오",
-    "generic.seconds": "{{count}} 초",
-    "generic.minutes": "{{count}} 분",
-    "generic.hours": "{{count}} 시간",
-    "generic.days": "{{count}} 일",
+    "generic.seconds": "{{count}}초",
+    "generic.minutes": "{{count}}분",
+    "generic.hours": "{{count}}시간",
+    "generic.days": "{{count}}일",
     "generic.in-x-days": "{{count}}일 남음",
     "generic.x-days-ago": "{{count}}일 전",
     "generic.price": "{{price}}g",
     "generic.price-for-quality": "{{price}}g ({{quality}})",
     "generic.price-for-stack": "{{count}}개를 묶음 판매 시 {{price}}G",
-    "generic.show-x-results": "show {{count}} results", // TODO
+    "generic.show-x-results": "결과 {{count}}개 보기",
 
     // types 유형
     "type.building": "건물",
@@ -48,7 +48,7 @@
 
     // NPC friendship 우정관계
     "friendship-status.friendly": "친근함",
-    "friendship-status.dating": "연애중",
+    "friendship-status.dating": "연애 중",
     "friendship-status.engaged": "약혼함",
     "friendship-status.married": "결혼함",
     "friendship-status.divorced": "이혼함",
@@ -68,7 +68,7 @@
     "bundle-area.abandoned-joja-mart": "버려진 조자 마트",
 
     // shop names
-    "shop.adventure-guild": "모험가 길드",
+    "shop.adventure-guild": "모험가의 길드",
     "shop.clint": "클린트의 대장간",
     "shop.marnie": "마니의 목장",
     "shop.pierre": "피에르 잡화점",
@@ -122,7 +122,7 @@
     "location.town.northmost-bridge": "마을 (최북단의 다리)",
     "location.tunnel": "버스 터널",
     "location.undergroundMine": "광산",
-    "location.undergroundMine.level": "광산 레벨 {{level}}",
+    "location.undergroundMine.level": "광산 {{level}}층",
     "location.witchSwamp": "마녀의 늪",
     "location.woods": "비밀 숲",
 
@@ -160,7 +160,7 @@
 
     // values
     "animal.complaints.hungry": "어제 먹이를 먹지 못함.",
-    "animal.complaints.left-out": "어젯밤 바깥에서 자야했음.",
+    "animal.complaints.left-out": "어젯밤 바깥에서 자야 했음.",
     "animal.complaints.new-home": "새로운 집에 적응 중.",
     "animal.complaints.no-heater": "겨울에 난방기가 없음.",
     "animal.complaints.not-petted": "오늘 쓰다듬 받지 못함.",
@@ -172,7 +172,7 @@
     *********/
     // labels
     "building.animals": "동물",
-    "building.construction": "건축중",
+    "building.construction": "건축 중",
     "building.feed-trough": "여물통",
     "building.horse": "말",
     "building.horse-location": "말의 위치",
@@ -190,7 +190,7 @@
     "building.horse-location.summary": "{{location}} ({{x}}, {{y}})",
     "building.junimo-harvesting-enabled": "수확 활성화 됨",
     "building.owner.none": "소유인 없음.",
-    "building.output-processing": "처리중",
+    "building.output-processing": "처리 중",
     "building.output-ready": "생산물 준비 완료",
     "building.slimes.summary": "최대 {{max}}마리까지의 슬라임 중 {{count}}마리 수용 중.",
     "building.stored-hay.summary": "이 위치에 있는 건초 {{maxHayInLocation}}개 중 {{hayCount}}개(이 건물의 최대 용량: {{maxHayInBuilding}})",
@@ -215,10 +215,10 @@
     "building.fish-pond.quests": "퀘스트",
 
     // values
-    "building.fish-pond.population.empty": "시작하기 위해 물고기를 추가해야 한다.",
+    "building.fish-pond.population.empty": "시작하기 위해 물고기를 추가해야 합니다.",
     "building.fish-pond.population.next-spawn": "새로운 물고기 생성 -  {{relativeDate}}",
     "building.fish-pond.drops.preface": "{{chance}}% 매일 우연히 일치된 첫 품목을 생산 :",
-    "building.fish-pond.drops.min-fish": "연못에 {{count}}마리 물고기가 있을때:",
+    "building.fish-pond.drops.min-fish": "연못에 {{count}}마리 물고기가 있을 때:",
     "building.fish-pond.quests.done": "{{count}}마리",
     "building.fish-pond.quests.incomplete-one": "{{count}}마리: {{itemName}} 필요",
     "building.fish-pond.quests.incomplete-random": "{{count}}마리 물고기:  {{itemList}} 중 랜덤 1개 필요 ",
@@ -229,9 +229,9 @@
     ** Bush lookups
     *********/
     // labels
-    "bush.name.berry": "베리 덤블",
-    "bush.name.plain": "일반 덤블",
-    "bush.name.tea": "차 덤블",
+    "bush.name.berry": "베리 덤불",
+    "bush.name.plain": "일반 덤불",
+    "bush.name.tea": "차 덤불",
     "bush.description.berry": "새먼베리와 블랙베리가 자라는 덤불.",
     "bush.description.plain": "아무것도 자라지 않는 일반 덤불.",
     "bush.description.Tea": "찻잎이 자라는 덤불.",
@@ -285,7 +285,7 @@
     "crop.summary.harvest-once": "{{daysToFirstHarvest}}일 후에 수확 가능",
     "crop.summary.harvest-multi": "{{daysToFirstHarvest}}일 후에 수확 가능, 그 후 매 {{daysToNextHarvests}}일마다 주기적 수확 가능.",
     "crop.summary.seasons": "{{seasons}}에 자람",
-    "crop.summary.sells-for": "판매가격: {{price}}",
+    "crop.summary.sells-for": "판매 가격: {{price}}",
     "crop.harvest.too-late": "작물을 수확하기엔 너무 늦은 계절이다 (다음 수확까지 {{date}}일 걸림)",
 
 
@@ -332,7 +332,7 @@
     "item.recipes-for-machine.same-as-input": "[same as input]", // e.g. crystalarium produces same item that was put in // TODO
     "item.recipes-for-machine.conditions": "[conditions: {{conditions}}]", // TODO
     "item.recipes-for-machine.too-complex": "Some machine rules are too dynamic to display.", // TODO
-    "item.number-owned.summary": "당신은 이것들을 {{count}}개 보유중.",
+    "item.number-owned.summary": "당신은 이것들을 {{count}}개 보유 중.",
     "item.number-crafted.summary": "당신은 이것들을 {{count}}개 제작했음.",
 
 
@@ -405,7 +405,7 @@
 
     // values
     "item.melee-weapon.critical-damage.label": "일반 데미지의 {{multiplier}}배(플레이어 보너스 적용 전)",
-    "item.melee-weapon.defense.label": "{{amount}} 장착중",
+    "item.melee-weapon.defense.label": "{{amount}} 장착 중",
     "item.melee-weapon.knockback.label": "{{amount}} (일반 거리의 {{multiplier}}배)",
     "item.melee-weapon.reach.label": "{{amount}} 픽셀",
     "item.melee-weapon.speed.shown-vs-actual": "표시: {{shownSpeed}}{{lineBreak}}실제: {{actualSpeed}}",
@@ -427,7 +427,7 @@
     "item.movie-snack-preference.love": "{{name}} 사랑함",
     "item.movie-snack-preference.like": "{{name}} 좋아함",
     "item.movie-snack-preference.dislike": "{{name}} 싫어함",
-    "item.movie-ticket.movie-this-week.none": "이번 주 상영영화 없음",
+    "item.movie-ticket.movie-this-week.none": "이번 주 상영하는 영화 없음",
 
 
     /*********
@@ -445,10 +445,10 @@
     "monster.invincible": "무적",
     "monster.health": "체력",
     "monster.drops": "드랍 물품",
-    "monster.experience": "XP(경험치)",
+    "monster.experience": "경험치",
     "monster.defense": "방어력",
     "monster.attack": "공격력",
-    "monster.adventure-guild": "모험가 길드",
+    "monster.adventure-guild": "모험가의 길드",
 
     // values
     "monster.drops.nothing": "개털(아무것도 안 줌)",
